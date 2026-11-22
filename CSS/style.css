@@ -9,16 +9,16 @@
     background-repeat: no-repeat;
     min-height: 100vh;
 }
-.navbar {
+.comfy-navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 25px 5%;
+    padding: 20px 5%;
     background: transparent;
 }
 .logo h2 {
     color: #292b1b;
-    font-size: 45px;
+    font-size: 50px;
     font-family: Georgia, serif;
     letter-spacing: 2px;
 }
@@ -26,7 +26,6 @@
     display: flex;
     gap: 35px;
 }
-
 .nav-links a {
     text-decoration: none;
     color: #292b1b;
@@ -43,11 +42,31 @@
     color: white;
     font-size: 20px;
 }
+.nav-icons .dropdown button {
+    color: whitesmoke;
+    border: none;
+    background: transparent;
+    font-size: 20px;
+}
+.dropdown-menu {
+    width: 300px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.15);
+}
+
+.dropdown-menu h5 {
+    color: #292b1b;
+}
+
+.dropdown-menu p {
+    color: #77756d;
+    font-size: 14px;
+}
 .nav-links a:hover,
 .nav-icons a:hover {
     color: #9b7046;
 }
-
 .hero-content {
     width: 45%;
     padding: 60px 5%;
@@ -86,8 +105,17 @@
 .collection-btn i {
     margin-left: 12px;
 }
-
 .collection-btn:hover {
     background-color: #77756d;
     color: white;
+}
+.featured-products{
+    text-align: center;
+    font-size: 25px;
+    color: #292b1b;
+}
+.product-grid{
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
 }
